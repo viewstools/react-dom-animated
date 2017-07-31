@@ -1,12 +1,12 @@
 {
   "name": "react-dom-animated",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "author": "Darío Javier Cravero <dario@uxtemple.com>",
   "repository": "https://github.com/dariocravero/react-dom-animated",
   "dependencies": {
     "animated": "^0.2.0",
-    "react-css-property-operations": "^15.4.1"
+    "only-react-css-property-operations": "^1.0.0"
   }
 }

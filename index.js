@@ -11,7 +11,7 @@
 'use strict'
 
 var Animated = require('animated')
-var CSSPropertyOperations = require('react-css-property-operations')
+var CSSPropertyOperations = require('only-react-css-property-operations')
 
 // { scale: 2 } => 'scale(2)'
 function mapTransform(t) {

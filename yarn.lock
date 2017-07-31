@@ -29,6 +29,6 @@ normalize-css-color@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
 
-react-css-property-operations@^15.4.1:
-  version "15.4.1"
-  resolved "https://registry.yarnpkg.com/react-css-property-operations/-/react-css-property-operations-15.4.1.tgz#4c0e305df4cc35f0f5fd2d65a79214c8b012db35"
+only-react-css-property-operations@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/only-react-css-property-operations/-/only-react-css-property-operations-1.0.0.tgz#dfc65acbc36d2516bddffd09faeb7de8d0b45482"
