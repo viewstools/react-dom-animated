@@ -16,7 +16,7 @@ var CSSPropertyOperations = require('only-react-css-property-operations')
 // { scale: 2 } => 'scale(2)'
 function mapTransform(t) {
   var k = Object.keys(t)[0]
-  return `${k}(${t[k]})`
+  return k + '(' + t[k] + ')'
 }
 
 // NOTE(lmr):
