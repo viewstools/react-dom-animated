@@ -13,10 +13,24 @@
 var Animated = require('animated')
 var CSSPropertyOperations = require('only-react-css-property-operations')
 
+var UNIT = {
+  translate: 'px',
+  translateX: 'px',
+  translateY: 'px',
+  rotate: 'deg',
+  rotateX: 'deg',
+  rotateY: 'deg',
+  rotateZ: 'deg',
+  skew: 'deg',
+  skewX: 'deg',
+  skewY: 'deg',
+}
+
+// TODO should this support translate(x,y)?
 // { scale: 2 } => 'scale(2)'
 function mapTransform(t) {
   var k = Object.keys(t)[0]
-  return k + '(' + t[k] + ')'
+  return k + '(' + t[k] + (UNIT[k] || '') + ')'
 }
 
 // NOTE(lmr):
