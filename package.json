@@ -1,6 +1,6 @@
 {
   "name": "react-dom-animated",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "license": "MIT",
   "author": "Darío Javier Cravero <dario@uxtemple.com>",
@@ -8,5 +8,8 @@
   "dependencies": {
     "animated": "^0.2.0",
     "only-react-css-property-operations": "^1.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1"
   }
 }

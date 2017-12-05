@@ -12,6 +12,7 @@
 
 var Animated = require('animated')
 var CSSPropertyOperations = require('only-react-css-property-operations')
+var Easing = require('animated/lib/Easing')
 
 var UNIT = {
   translate: 'px',
@@ -67,6 +68,7 @@ module.exports = Object.assign({}, Animated, {
   a: Animated.createAnimatedComponent('a'),
   button: Animated.createAnimatedComponent('button'),
   div: Animated.createAnimatedComponent('div'),
+  Easing,
   span: Animated.createAnimatedComponent('span'),
   img: Animated.createAnimatedComponent('img'),
 })
